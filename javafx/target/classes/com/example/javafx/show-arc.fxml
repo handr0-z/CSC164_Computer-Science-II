@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Arc?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Arc fill="#ffec1f" length="34.0" radiusX="100.0" radiusY="100.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fill="#ff1f6c" length="60.0" radiusX="100.0" radiusY="100.0" rotate="150.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fill="DODGERBLUE" length="43.0" radiusX="100.0" radiusY="100.0" rotate="190.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="CHORD" />
+      <Arc fill="#1fff56" length="240.0" radiusX="100.0" radiusY="100.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+   </children>
+</VBox>

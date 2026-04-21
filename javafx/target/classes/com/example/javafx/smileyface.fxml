@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fill="#ddd0be" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" radius="20.0" stroke="BLACK" strokeType="INSIDE" translateX="30.0" translateY="-20.0" />
+      <Circle fill="WHITE" radius="20.0" stroke="BLACK" strokeType="INSIDE" translateX="-30.0" translateY="-20.0" />
+      <Polygon fill="DODGERBLUE" scaleX="0.25" scaleY="0.5" stroke="BLACK" strokeType="INSIDE" translateY="20.0">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+      <Arc fill="DODGERBLUE" length="20.0" radiusX="100.0" radiusY="100.0" rotate="140.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" translateY="60.0" />
+   </children>
+</StackPane>
