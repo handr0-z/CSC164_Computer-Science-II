@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fill="DODGERBLUE" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#3cd33c" radius="100.0" scaleX="0.75" scaleY="0.75" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ac2cc6" radius="100.0" scaleX="0.5" scaleY="0.5" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffb41f" radius="100.0" scaleX="0.25" scaleY="0.25" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</HBox>

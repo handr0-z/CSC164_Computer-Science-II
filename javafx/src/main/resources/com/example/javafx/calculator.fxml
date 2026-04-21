@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.CalculatorController">
+   <children>
+      <Text layoutX="96.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number 1:" />
+      <TextField fx:id="number1" layoutX="163.0" layoutY="48.0" />
+      <Text layoutX="96.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number 2:" />
+      <TextField fx:id="number2" layoutX="163.0" layoutY="81.0" />
+      <Text layoutX="106.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result:" />
+      <Button fx:id="addButton" layoutX="105.0" layoutY="188.0" mnemonicParsing="false" onAction="#onAddButtonClick" text="Add" />
+      <Button fx:id="subtractButton" layoutX="141.0" layoutY="188.0" mnemonicParsing="false" onAction="#onSubtractButtonClick" text="Subtract" />
+      <Button fx:id="multiplyButton" layoutX="200.0" layoutY="188.0" mnemonicParsing="false" onAction="#onMultiplyButtonClick" text="Multiply" />
+      <Button fx:id="divideButton" layoutX="259.0" layoutY="188.0" mnemonicParsing="false" onAction="#onDivideButtonClick" text="Divide" />
+      <TextField fx:id="result" layoutX="163.0" layoutY="118.0" />
+   </children>
+</Pane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<SplitPane dividerPositions="0.29797979797979796" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.javafx.LoanCalculatorController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <VBox layoutX="50.0" layoutY="99.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Annual Interest Rate" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Years" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Loan Amount" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Monthly Payment" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total Payment" />
+               </children>
+            </VBox>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <VBox layoutX="126.0" layoutY="99.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <TextField fx:id="tfAnnualInterestRate" onAction="#onbtCalculateClick" prefHeight="0.0" prefWidth="100.0" />
+                  <TextField fx:id="tfNumberOfYears" onAction="#onbtCalculateClick" />
+                  <TextField fx:id="tfLoanAmount" onAction="#onbtCalculateClick" />
+                  <TextField fx:id="tfMonthlyPayment" onAction="#onbtCalculateClick" />
+                  <TextField fx:id="tfTotalPayment" onAction="#onbtCalculateClick" />
+                  <Button fx:id="btCalculate" mnemonicParsing="false" onAction="#onbtCalculateClick" text="Calculate" />
+               </children>
+            </VBox>
+         </children></AnchorPane>
+  </items>
+</SplitPane>
