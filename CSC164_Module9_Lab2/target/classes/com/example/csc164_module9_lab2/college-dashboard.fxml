@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc164_module9_lab2.CollegeDashboardController">
+   <left>
+      <VBox prefWidth="250.0" spacing="15.0" style="-fx-background-color: #2a4fbf;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="30.0" prefWidth="250.0" />
+            <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="STUDENT RESOURCES" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="-2.0">
+                     <image>
+                        <Image url="@Images/Home%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect></ImageView>
+               </graphic>
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="COURSES / D2L" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="-2.0">
+                     <image>
+                        <Image url="@Images/Book%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="DELTECH CONNECT" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="-2.0">
+                     <image>
+                        <Image url="@Images/Chat%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="STUDENT INFORMATION" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="-2.0">
+                     <image>
+                        <Image url="@Images/Folder%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="EMAIL" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="-2.0">
+                     <image>
+                        <Image url="@Images/Email%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="CALENDERS" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" translateX="-2.0">
+                     <image>
+                        <Image url="@Images/Calendar.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="REGISTRATION" textFill="WHITE" translateX="-2.0" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/Document%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="ALERT" textFill="WHITE" translateX="-2.0" translateY="-2.0" translateZ="-2.0" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" rotate="-30.0">
+                     <image>
+                        <Image url="@Images/Speakerphone%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="COLLEGE WEBSITE" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/Link%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="DTCC EMERGENCY" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/Emergency%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="-1.0" saturation="-1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </VBox>
+   </left>
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="40.0" pickOnBounds="true" preserveRatio="true" scaleX="0.7" scaleY="0.7" HBox.hgrow="ALWAYS">
+               <image>
+                  <Image url="@Images/Delaware%20Tech%20Logo.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Pane prefHeight="40.0" prefWidth="300.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" translateX="10.0" translateY="10.0">
+                     <image>
+                        <Image url="@Images/Menu%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="0.04" contrast="-0.67" saturation="-1.0" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+               <image>
+                  <Image url="@Images/Image%20Icon.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <ColorAdjust brightness="0.5" />
+               </effect>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+               <image>
+                  <Image url="@Images/Video%20Icon.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <ColorAdjust brightness="0.5" />
+               </effect>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+               <image>
+                  <Image url="@Images/Book%20Icon.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <ColorAdjust brightness="0.5" />
+               </effect>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+               <image>
+                  <Image url="@Images/Setting%20Icon.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <ColorAdjust brightness="0.5" />
+               </effect>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+               <image>
+                  <Image url="@Images/Bell%20Icon.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <ColorAdjust brightness="0.5" />
+               </effect>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </ImageView>
+            <Button mnemonicParsing="false" style="-fx-background-color: WHITE;" text="Alejandro Pantoja-Zurita" textFill="#8d8d8d" HBox.hgrow="ALWAYS">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/User%20Icon.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="0.5" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Arial" size="10.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <HBox.margin>
+                  <Insets left="40.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </HBox>
+   </top>
+   <center>
+      <VBox prefHeight="443.0" prefWidth="615.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="25.0" style="-fx-background-color: white;" VBox.vgrow="NEVER">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Resources">
+                     <font>
+                        <Font name="Arial" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="18.0" style="-fx-background-color: #3ea15a;">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Office of the President">
+                     <font>
+                        <Font name="Calibri" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <TableView fx:id="presidentAnnouncements" maxHeight="50.0" prefHeight="50.0" style="-fx-background-color: TRANSPARENT;" VBox.vgrow="ALWAYS">
+              <columns>
+                <TableColumn fx:id="officeDate" maxWidth="200.0" prefWidth="100.0" text="Date" />
+                <TableColumn fx:id="officeTitle" maxWidth="1000.0" prefWidth="500.0" text="Title" />
+                  <TableColumn fx:id="officeFrom" maxWidth="400.0" prefWidth="200.0" text="From" />
+              </columns>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TableView>
+            <HBox alignment="CENTER_LEFT" prefHeight="18.0" style="-fx-background-color: #3ea15a;">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Collegewide">
+                     <font>
+                        <Font name="Calibri" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <TableView fx:id="collegewideAnnouncements" maxHeight="50.0" prefHeight="50.0" style="-fx-background-color: TRANSPARENT;" VBox.vgrow="ALWAYS">
+               <columns>
+                  <TableColumn fx:id="collegeDate" maxWidth="200.0" prefWidth="100.0" text="Date" />
+                  <TableColumn fx:id="collegeTitle" maxWidth="1000.0" prefWidth="500.0" text="Title" />
+                  <TableColumn fx:id="collegeFrom" maxWidth="400.0" prefWidth="200.0" text="From" />
+               </columns>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TableView>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
