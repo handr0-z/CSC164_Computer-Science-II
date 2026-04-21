@@ -1,0 +1,21 @@
+NOTE: When Adding items to list, be sure to follow outline below.
+-----------------------------------------------------------------------------------------------------
+FOOD,NAME,PRICE,ALLERGEN 1,ALLERGEN 2
+
+DRINK,NAME,PRICE,SIZE
+
+GIFT CARD,NAME,PRICE,BALANCE,MESSAGE
+-----------------------------------------------------------------------------------------------------
+Food,Cheeseburger,7.99,Gluten,Dairy
+Food,French Fries,4.79,Gluten,Dairy
+Food,Salad,6.49,Nuts
+Food,Pizza,14.99,Gluten, Dairy
+Food,Cheesesteak,12.99,Gluten,Dairy
+Drink,Soda (S),0.99,Small
+Drink,Soda (M),1.49,Medium
+Drink,Soda (L),1.99,Large
+Drink,Soda (S),0.99,Small
+Drink,Soda (M),1.29,Medium
+Drink,Soda (L),1.49,Large
+Gift Card,Birthday Gift Card,25.00,25.00,Happy Birthday!
+Food,Soup,5.99
